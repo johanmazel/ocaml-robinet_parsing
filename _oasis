@@ -1,0 +1,19 @@
+OASISFormat: 0.3
+Name:        robinet_parsing
+Version:     0.1
+Synopsis:    Bundle of code to parse ipv6 from robinet.
+Authors:     Johan Mazel
+License:     GPL-3
+Plugins:     META (0.3), StdFiles (0.3)
+BuildTools:  ocamlbuild
+
+Library robinet_parsing
+  Path:          lib/
+  Findlibname:   robinet_parsing
+  Modules:       Ip,
+                 Ip6,
+                 Tools
+  BuildDepends:  batteries,
+                 bitstring,
+                 bitstring.syntax
+
