@@ -19,4 +19,5 @@ remove: [["ocamlfind" "remove" "admd"]]
 depends: [
   "ocamlfind"
   "oasis"
+  "bitstring"
 ]
