@@ -17,8 +17,9 @@ install: [
 ]
 remove: [["ocamlfind" "remove" "robinet_parsing"]]
 depends: [
-  "ocamlfind"
   "oasis"
+  "ocamlfind"
+
   "bitstring"
   "batteries"
 ]
