@@ -16,6 +16,7 @@ install: [
   ["ocaml" "setup.ml" "-install"]
 ]
 remove: [["ocamlfind" "remove" "admd"]]
-#depends: [
-#  "ocamlfind" {>= "1.5.3"}
-#]
+depends: [
+  "ocamlfind"
+  "oasis"
+]
