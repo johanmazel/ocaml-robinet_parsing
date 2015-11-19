@@ -20,4 +20,5 @@ depends: [
   "ocamlfind"
   "oasis"
   "bitstring"
+  "batteries"
 ]
